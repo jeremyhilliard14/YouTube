@@ -101,18 +101,19 @@ mark.red{
 }
 
 iframe{
-	margin-left: 30px;
+	/*margin-left: 30px;*/
 }
 
 #iframe1, #iframe2{
-	margin-bottom: 3px;
+	/*margin-bottom: 3px;*/
 }
 #red-card{
 	float: right;
 }
 
 .video-info{
-	word-wrap: break-word;
+	text-wrap: suppress;
 	vertical-align: text-top;
-	direction: ltr;
+	text-align: left;
+	float: right;
 }
