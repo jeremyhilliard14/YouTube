@@ -110,3 +110,9 @@ iframe{
 #red-card{
 	float: right;
 }
+
+.video-info{
+	word-wrap: break-word;
+	vertical-align: text-top;
+	direction: ltr;
+}
