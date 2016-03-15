@@ -15,7 +15,7 @@ hr{
 }
 
 #broadcast{
-	font-size: 20px;
+	font-size: 10px;
 }
 
 mark.red{
@@ -96,3 +96,17 @@ mark.red{
     
 }
 
+#featured{
+	margin-left: 30px;
+}
+
+iframe{
+	margin-left: 30px;
+}
+
+#iframe1, #iframe2{
+	margin-bottom: 3px;
+}
+#red-card{
+	float: right;
+}
