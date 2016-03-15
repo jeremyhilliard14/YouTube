@@ -79,9 +79,20 @@ mark.red{
   color: #fff;
   background-color: #8FBE00;
 }
-ul{
+.home{
    
     font-size:25px;
     float:left;
     
 }
+.create-sign-in{
+    float:right;
+    
+}
+.create{
+    font:20px;
+    float:right;
+    clear:right;
+    
+}
+
