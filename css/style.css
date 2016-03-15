@@ -1,0 +1,35 @@
+#home{
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+hr{
+	clear: both;
+	border: 2px solid black;
+}
+
+#youtube{
+	font-size: 50px;
+
+
+}
+
+#broadcast{
+	font-size: 20px;
+}
+
+mark.red{
+	color: #ff0000;
+	background: none;
+	letter-spacing: -2px;
+	margin-left: -13px;
+}
+#search-button{
+	float: right;
+	margin-left: 10px;
+}
+#search{
+	position: relative;
+	float: left;
+	max-width: 100px;
+}
