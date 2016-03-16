@@ -1,5 +1,5 @@
 #container{
-	max-width: 1200px;
+	/*max-width: 1200px;*/
 	/*margin: auto;*/
 }
 
@@ -14,7 +14,7 @@
 	clear: both;
 	border: 1px solid black;
 	margin-left: 65px;
-	margin-right: -40px;
+	margin-right: 10px;
 }
 
 #youtube{
@@ -73,7 +73,7 @@ button{
 #right-header{
 	float: right;
 	margin-top: -80px;
-	margin-right: -265px;
+	margin-right: -230px;
 }
 
 .create{
@@ -92,7 +92,11 @@ button{
 	clear: both;
 	border: 1px solid black;
 	margin-left: 50px;
-	margin-right: -55px;
+	margin-right: -5px;
+}
+
+#featured-header{
+	margin-top: 10px;
 }
 
 #featured{
@@ -101,6 +105,12 @@ button{
 	margin-bottom: 10px;
 }
 
+#featured-related{
+	background-color: white;
+	border-radius: 10px;
+	padding-bottom: 10px;
+
+}
 img.one, img.two, img.three{
 	height: 100px;
 	width: 120px;
@@ -110,7 +120,7 @@ img.one, img.two, img.three{
 }
 
 .one{
-	margin-top: 30px;
+	margin-top: 10px;
 }
 .two, .three{
 	margin-top: 7px;
@@ -123,7 +133,7 @@ p#one{
 	font-size: 10px;
 	float: right;
 	/*margin-right: 70px;*/
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
 p#two, p#three{
