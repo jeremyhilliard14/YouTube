@@ -1,5 +1,5 @@
 #container{
-	/*max-width: 1200px;*/
+	/*max-width: 1200px;
 	/*margin: auto;*/
 }
 
@@ -46,7 +46,7 @@ mark.red{
 }
 
 .form-control{
-	width: 650px;
+	
 	height: 25px;
 	margin-top: -20px;
 	margin-left: 65px;
@@ -69,7 +69,9 @@ button{
 	font-size: 20px;
     margin-left: 440px;
 }
-
+div{
+	border: .5px dotted gray;
+}
 #right-header{
 	float: right;
 	margin-top: -80px;
@@ -78,7 +80,7 @@ button{
 
 .create{
     font:20px;
-    float:left;
+    float:right;
     clear:right;
     margin-top: 30px;
     margin-left: -58px;
@@ -86,6 +88,11 @@ button{
 
 .create li{
 	margin-left: 10px;
+}
+
+.misc-nav{
+	float: right;
+	margin-right: 65px;
 }
 
 #bottom-hr{
@@ -160,7 +167,7 @@ p#pop-up-info{
 	margin-left: 48px;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	width: 968px;
+	width: 960px;
 
 }
 
@@ -183,7 +190,7 @@ p#pop-up-info{
 	background-color: #e2e2e2;
 	border: .5px solid black;
 	margin-left: 33px;
-	height: 375px;
+	height: auto;
 }
 
 #more-videos{
