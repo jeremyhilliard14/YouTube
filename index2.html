@@ -5,9 +5,11 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
 
 </head>
 <body>
@@ -67,7 +69,7 @@
 				</div>
 				<div class="col-lg-4 col-sm-2" id="featured-related">
 					<a href="videos.html"><img class="preview one" src="css/lasso2.webp"></a><p id="one">Coach Lasso becomes an analyst for NBC Sport covering the EPL. theian nvwr[nv nvwnvIIVNR NWINVO'vnvnua'NVRWOV;dnv</p>
-					<img class="preview two" src="css/lasso3.webp"><p id="two">Behind the scenes with Coach Lasso.  theian nvwr[nv nvwnvIIVNR NWINVO'vnvnua'NVRWOV;dnv</p>
+					<a class="youtube-media" href="https://www.youtube.com/embed/iS7DI8x-9l4"><img class="preview two" src="css/lasso3.webp"></a><p id="two">Behind the scenes with Coach Lasso.  theian nvwr[nv nvwnvIIVNR NWINVO'vnvnua'NVRWOV;dnv</p>
 					<img class="preview three" src="css/lasso4.webp"><p id="three">Interview with Jason S on being Coach Lasso.  theian nvwr[nv nvwnvIIVNR NWINVO'vnvnua'NVRWOV;dnv</p>	
 				</div>
 			</div>
@@ -108,7 +110,20 @@
 		<div id="copy"><em>YouTube is a trademark of Youtube.com.</em></div>
 	</div>
 
+	<script type="text/javascript">
 		
+		$(".youtube-media").on("click", function (e) {
+    var jWindow = $(window).width();
+    if ( jWindow <= 768 ) {
+        return;
+    }
+    $.fancybox({
+        href: this.href,
+        type: "iframe"
+    });
+    return false;
+});
+	</script>	
 
 </body>
 </html>
