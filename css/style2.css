@@ -1,0 +1,192 @@
+#container{
+	max-width: 1200px;
+	/*margin: auto;*/
+}
+
+#home{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+
+#top-hr{
+	clear: both;
+	border: 1px solid black;
+	margin-left: 65px;
+	margin-right: -40px;
+}
+
+#youtube{
+	font-size: 30px;
+	margin-left: 50px;
+}
+
+#broadcast{
+	font-size: 12px;
+	display: inline-block;
+	/*margin-top: -10px;*/
+	float: left;
+	clear: left;
+	margin-left: 68px;
+}
+
+mark.red{
+	color: #ff0000;
+	background: none;
+	letter-spacing: 0px;
+	margin-left: -1px;
+	padding: 0px;
+}
+
+#search{
+	position: relative;
+	float: left;
+	display: inline-block;
+}
+
+.form-control{
+	width: 650px;
+	height: 25px;
+	margin-top: -20px;
+	margin-left: 65px;
+	margin-right: 5px;
+}
+
+button{
+	float: right;
+	display: inline-block;
+	margin-top: -25px;
+	margin-right: -195px;
+}
+
+#home-nav{
+	font-size: 25px;
+	float: left;
+}
+
+.home{
+	font-size: 20px;
+    margin-left: 440px;
+}
+
+#right-header{
+	float: right;
+	margin-top: -80px;
+	margin-right: -265px;
+}
+
+.create{
+    font:20px;
+    float:left;
+    clear:right;
+    margin-top: 30px;
+    margin-left: -58px;
+ }
+
+.create li{
+	margin-left: 10px;
+}
+
+#bottom-hr{
+	clear: both;
+	border: 1px solid black;
+	margin-left: 50px;
+	margin-right: -55px;
+}
+
+#featured{
+	margin-left: -15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+img.one, img.two, img.three{
+	height: 100px;
+	width: 120px;
+	display: inline-block;
+	clear: left;
+	/*margin-left: 110px;*/
+}
+
+.one{
+	margin-top: 30px;
+}
+.two, .three{
+	margin-top: 7px;
+}
+
+
+p#one{
+	width: 150px;
+	word-wrap: break-word;
+	font-size: 10px;
+	float: right;
+	/*margin-right: 70px;*/
+	margin-top: 30px;
+}
+
+p#two, p#three{
+	width: 150px;
+	word-wrap: break-word;
+	font-size: 10px;
+	float: right;
+	/*margin-right: 70px;*/
+	margin-top: 8px;
+}
+
+#pop-up{
+	margin-top: 5px;
+}
+p#pop-up-info{
+	width: 264px;
+	word-wrap: break-word;
+	font-size: 10px;
+}
+
+#featured-wrapper{
+	background-color: #c4c4c4;
+	border: 1px solid black;
+	margin-left: 48px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 968px;
+
+}
+
+.p-info{
+	width: 100px;
+	word-wrap: break-word;
+	font-size: 10px;
+	float: right;
+	margin-top: 10px;
+}
+
+#placeholder-one, #placeholder-two{
+	clear: left;
+}
+.placeholder{
+	margin-top: 15px;
+}
+
+#more-video-wrapper{
+	background-color: #e2e2e2;
+	border: .5px solid black;
+	margin-left: 33px;
+	height: 375px;
+}
+
+#more-videos{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#related-wrapper{
+	margin-left: -10px;
+}
+
+#copy{
+	font-size: 12px;
+	margin-left: 32px;
+	font-weight: bold;
+}
